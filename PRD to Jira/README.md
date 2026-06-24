@@ -94,7 +94,17 @@ This project provides an automated, self-service translation mechanism that crea
 *   **Web Framework:** Streamlit (For responsive browser view rendering)
 *   **AI SDK Runtime:** Google GenAI (Interfacing with the gemini-2.5-flash model architecture)
 
-### Quick Start
+
+### Quick Start & API Key Generation
+
+#### 1. Obtain a Free Gemini API Key
+To run the project, you need a connection vector to the Gemini platform framework:
+1. Navigate to [Google AI Studio](https://google.com) and log in with any standard Google account.
+2. Select the **Get API Key** button in the upper-left panel dashboard.
+3. Click **Create API Key**, select an active project cluster, and copy the generated alphanumeric token string (prefixed with `AIzaSy`).
+
+#### 2. Local Environment Execution Setup
+Open your terminal application and execute these terminal commands sequentially:
 ```bash
 # Navigate to the target project working folder
 cd PRD\ to\ Jira/
@@ -105,10 +115,15 @@ source ../venv/bin/activate
 # Install the package dependencies
 pip install -r requirements.txt
 
-# Run the local background web application server
+# Securely inject your credential token into your environment memory
+export GEMINI_API_KEY="your_copied_api_key_here"
+
+# Run the local background web application server | enter your product requirements or source my sample in /data/mock_prd.md
 streamlit run src/app.py
 ```
-#### Enter your own Product Requirements or sample from the /data/mock_prd.md 
+
+*Note: Alternatively, you can omit the `export` command and paste the key directly into the secure masked password field on the Streamlit browser UI sidebar at runtime. Keys are processed strictly in runtime memory and are never committed to the source file tree.*
+
 ---
 
 ## Sample Report Output
