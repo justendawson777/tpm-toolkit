@@ -99,10 +99,10 @@ This engine transforms how diverse team disciplines collaborate by establishing 
 ```bash
 # Clone the repository
 git clone https://github.com
-cd sprint-risk-analyzer
+cd Risks\ Analyzer/
 
 # Run the analysis engine
-python src/analyzer.py --file data/mock_jira_data.csv
+python src/risk_analyzer.py --file data/mock_jira_data.csv
 ```
 
 ---
