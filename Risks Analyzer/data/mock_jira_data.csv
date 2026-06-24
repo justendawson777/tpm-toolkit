@@ -1,0 +1,28 @@
+
+Issue_Type,Ticket_ID,Summary,Story_Points,Assignee,Status,Priority,Linked_issues
+Initiative,WED-001,Smith-Jones Wedding Blueprint 2026,0,Wedding Consultant,In Progress,High,None
+Epic,WED-100,Venue & Legal Foundation Milestone,0,Wedding Consultant,In Progress,Highest,None
+Epic,WED-200,Catering & Hospitality Milestone,0,Catering Coordinator,To Do,High,None
+Epic,WED-300,Vendor Logistics & Entertainment Milestone,0,Logistics Lead,To Do,Medium,None
+Epic,WED-400,Design & Production Execution Milestone,0,Design Director,To Do,Medium,None
+Epic,WED-500,Attire & Styling Wardrobe Milestone,0,Styling Consultant,In Progress,Medium,None
+Epic,WED-600,Guest Experience & Travel Milestone,0,Concierge Manager,To Do,Low,None
+Epic,WED-700,Rehearsal & Day-of Coordination Milestone,0,Wedding Consultant,To Do,Highest,None
+Story,WED-101,Secure and sign venue contract,5,Wedding Consultant,In Progress,Highest,None
+Story,WED-102,Apply for and secure municipal marriage license,3,Wedding Consultant,To Do,High,None
+Story,WED-201,Finalize tasting and menu selection with caterer,5,Catering Coordinator,To Do,High,is blocked by WED-101
+Story,WED-202,Submit final guest headcount to venue and caterer,2,Catering Coordinator,To Do,Highest,is blocked by WED-301
+Story,WED-203,Design signature cocktail and bar package,1,Catering Coordinator,To Do,Low,None
+Story,WED-301,Manage RSVP collection and spreadsheet tracking,3,Logistics Lead,To Do,High,is blocked by WED-402
+Story,WED-302,Contract live band and finalize reception song list,5,Logistics Lead,In Progress,Medium,is blocked by WED-101
+Story,WED-303,Book day-of photographer and videographer team,3,Logistics Lead,Done,Medium,None
+Story,WED-401,Approve florist visual proposal and table layouts,3,Design Director,To Do,Medium,is blocked by WED-101
+Story,WED-402,Print and ship physical wedding invitations,5,Design Director,To Do,High,is blocked by WED-102
+Story,WED-403,Finalize ceremony stage backdrop and lighting rig,5,Design Director,To Do,Medium,is blocked by WED-101
+Story,WED-501,Complete custom wedding gown tailoring and fittings,8,Styling Consultant,In Progress,High,None
+Story,WED-502,Finalize bridal party attire orders and delivery,3,Styling Consultant,To Do,Medium,None
+Story,WED-601,Arrange hotel room blocks for out-of-town guests,2,Concierge Manager,To Do,Low,is blocked by WED-101
+Story,WED-602,Coordinate shuttle buses from hotel to venue,3,Concierge Manager,To Do,Medium,is blocked by WED-601
+Story,WED-701,Draft comprehensive minute-by-minute day-of timeline,5,Wedding Consultant,To Do,Highest,is blocked by WED-202
+Story,WED-702,Book rehearsal dinner venue and finalize guest list,3,Wedding Consultant,To Do,High,is blocked by WED-301
+Story,WED-703,Conduct walk-through with sound engineer at venue,2,Logistics Lead,To Do,Medium,is blocked by WED-302
