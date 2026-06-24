@@ -1,0 +1,106 @@
+Resource_ID,Service,Resource_Type,State,CPU_Utilization,Monthly_Cost,Environment,Owner_Tag
+ec2-i-0aa11bc,EC2,Instance,running,4.2,146.0,Production,Data Engineering
+ec2-i-0bb22cd,EC2,Instance,running,78.5,292.0,Production,Core App
+ec2-i-0cc33de,EC2,Instance,stopped,0.0,0.0,Staging,QA Team
+ebs-vol-01a1,EBS,Volume,available,0.0,40.0,Production,DevOps
+ebs-vol-02b2,EBS,Volume,in-use,12.4,80.0,Production,Core App
+rds-db-prod,RDS,Database,available,8.1,450.0,Production,Finance
+rds-db-test,RDS,Database,stopped,0.0,120.0,Development,Sandbox
+s3-logging-bucket,S3,Bucket,active,0.0,15.0,Production,Security
+s3-temp-dump,S3,Bucket,active,0.0,310.0,Development,Data Engineering
+ec2-i-0dd44ef,EC2,Instance,running,1.1,584.0,Production,Marketing Analytics
+ebs-vol-03c3,EBS,Volume,available,0.0,115.0,Staging,Unknown
+rds-db-analytics,RDS,Database,available,2.5,890.0,Production,Marketing Analytics
+ec2-i-039256aa,EC2,Instance,running,70.1,146.0,Development,DevOps
+ec2-i-013905aa,EC2,Instance,stopped,0.0,0.0,Sandbox,Data Engineering
+ebs-vol-09928b,EBS,Volume,available,0.0,120.0,Production,DevOps
+rds-db-448xyz,RDS,Database,available,14.8,480.0,Staging,Security
+rds-db-199xyz,RDS,Database,available,76.4,480.0,Production,Security
+ec2-i-059615aa,EC2,Instance,stopped,0.0,0.0,Sandbox,Core App
+rds-db-146xyz,RDS,Database,stopped,0.0,240.0,Staging,Unknown
+ec2-i-046434aa,EC2,Instance,running,60.6,584.0,Production,Security
+rds-db-818xyz,RDS,Database,stopped,0.0,120.0,Staging,Finance
+ebs-vol-08573b,EBS,Volume,available,0.0,120.0,Staging,QA Team
+ebs-vol-04752b,EBS,Volume,available,0.0,20.0,Development,Unknown
+s3-bucket-06155prod,S3,Bucket,active,0.0,92.92,Production,DevOps
+s3-bucket-05040prod,S3,Bucket,active,0.0,300.55,Development,QA Team
+s3-bucket-03266prod,S3,Bucket,active,0.0,208.72,Development,DevOps
+ec2-i-099192aa,EC2,Instance,running,56.9,584.0,Staging,QA Team
+s3-bucket-09797prod,S3,Bucket,active,0.0,302.84,Production,Unknown
+rds-db-261xyz,RDS,Database,available,1.3,960.0,Development,Security
+rds-db-961xyz,RDS,Database,available,14.6,240.0,Production,Unknown
+ec2-i-012552aa,EC2,Instance,stopped,0.0,0.0,Development,Unknown
+rds-db-346xyz,RDS,Database,stopped,0.0,120.0,Staging,Data Engineering
+s3-bucket-08787prod,S3,Bucket,active,0.0,379.27,Staging,QA Team
+s3-bucket-07537prod,S3,Bucket,active,0.0,398.11,Staging,Finance
+s3-bucket-04681prod,S3,Bucket,active,0.0,34.97,Production,DevOps
+ebs-vol-02163b,EBS,Volume,available,0.0,20.0,Staging,Data Engineering
+ec2-i-046500aa,EC2,Instance,running,3.6,584.0,Production,DevOps
+s3-bucket-04119prod,S3,Bucket,active,0.0,46.79,Sandbox,Security
+rds-db-984xyz,RDS,Database,stopped,0.0,120.0,Sandbox,Unknown
+ec2-i-024322aa,EC2,Instance,running,18.6,146.0,Sandbox,Marketing Analytics
+ebs-vol-08579b,EBS,Volume,in-use,17.6,40.0,Staging,Finance
+ec2-i-040982aa,EC2,Instance,running,38.9,146.0,Production,Core App
+s3-bucket-01035prod,S3,Bucket,active,0.0,394.27,Staging,Security
+s3-bucket-03536prod,S3,Bucket,active,0.0,84.06,Sandbox,Unknown
+ec2-i-017492aa,EC2,Instance,stopped,0.0,0.0,Production,Marketing Analytics
+s3-bucket-04044prod,S3,Bucket,active,0.0,36.72,Production,Core App
+ebs-vol-01651b,EBS,Volume,in-use,9.0,20.0,Production,DevOps
+rds-db-344xyz,RDS,Database,stopped,0.0,480.0,Staging,Marketing Analytics
+rds-db-109xyz,RDS,Database,stopped,0.0,960.0,Development,Core App
+ec2-i-027361aa,EC2,Instance,running,83.7,292.0,Staging,Finance
+rds-db-953xyz,RDS,Database,stopped,0.0,480.0,Staging,Unknown
+ec2-i-027601aa,EC2,Instance,stopped,0.0,0.0,Development,Core App
+ec2-i-046930aa,EC2,Instance,stopped,0.0,0.0,Staging,Finance
+rds-db-357xyz,RDS,Database,available,9.2,120.0,Development,Unknown
+rds-db-889xyz,RDS,Database,available,57.7,240.0,Production,Marketing Analytics
+s3-bucket-02232prod,S3,Bucket,active,0.0,378.57,Production,Core App
+ebs-vol-03426b,EBS,Volume,available,0.0,120.0,Production,Marketing Analytics
+rds-db-315xyz,RDS,Database,stopped,0.0,240.0,Production,Marketing Analytics
+rds-db-985xyz,RDS,Database,stopped,0.0,240.0,Staging,DevOps
+ebs-vol-06442b,EBS,Volume,available,0.0,120.0,Production,QA Team
+ebs-vol-07267b,EBS,Volume,in-use,17.3,20.0,Staging,Core App
+s3-bucket-04652prod,S3,Bucket,active,0.0,19.23,Development,DevOps
+rds-db-459xyz,RDS,Database,stopped,0.0,960.0,Production,Finance
+rds-db-282xyz,RDS,Database,available,4.4,480.0,Production,Finance
+rds-db-494xyz,RDS,Database,stopped,0.0,240.0,Sandbox,Core App
+s3-bucket-08066prod,S3,Bucket,active,0.0,37.29,Staging,Marketing Analytics
+rds-db-619xyz,RDS,Database,stopped,0.0,480.0,Production,Finance
+rds-db-296xyz,RDS,Database,stopped,0.0,960.0,Development,QA Team
+s3-bucket-09977prod,S3,Bucket,active,0.0,335.15,Development,Security
+ebs-vol-08238b,EBS,Volume,in-use,13.8,120.0,Development,Unknown
+ebs-vol-09445b,EBS,Volume,available,0.0,80.0,Production,Finance
+ebs-vol-04262b,EBS,Volume,available,0.0,40.0,Development,DevOps
+ebs-vol-07790b,EBS,Volume,in-use,14.6,40.0,Production,Unknown
+s3-bucket-02746prod,S3,Bucket,active,0.0,313.58,Staging,Data Engineering
+s3-bucket-08478prod,S3,Bucket,active,0.0,62.0,Staging,Core App
+rds-db-262xyz,RDS,Database,stopped,0.0,960.0,Sandbox,Unknown
+ebs-vol-04919b,EBS,Volume,available,0.0,80.0,Development,Unknown
+rds-db-427xyz,RDS,Database,available,13.3,120.0,Development,Marketing Analytics
+ebs-vol-07797b,EBS,Volume,available,0.0,120.0,Staging,Core App
+s3-bucket-07883prod,S3,Bucket,active,0.0,161.9,Production,Unknown
+ec2-i-010772aa,EC2,Instance,stopped,0.0,0.0,Sandbox,Unknown
+rds-db-599xyz,RDS,Database,stopped,0.0,240.0,Sandbox,DevOps
+s3-bucket-07624prod,S3,Bucket,active,0.0,292.43,Sandbox,Marketing Analytics
+ebs-vol-01444b,EBS,Volume,available,0.0,20.0,Production,Security
+ebs-vol-05262b,EBS,Volume,in-use,7.2,120.0,Staging,Data Engineering
+rds-db-358xyz,RDS,Database,stopped,0.0,120.0,Development,Security
+ec2-i-095426aa,EC2,Instance,running,71.8,73.0,Staging,Core App
+ebs-vol-03068b,EBS,Volume,in-use,13.7,120.0,Staging,DevOps
+ebs-vol-03749b,EBS,Volume,in-use,15.8,20.0,Development,Marketing Analytics
+rds-db-689xyz,RDS,Database,available,36.3,960.0,Production,Finance
+ec2-i-049529aa,EC2,Instance,stopped,0.0,0.0,Staging,Core App
+ec2-i-079827aa,EC2,Instance,stopped,0.0,0.0,Production,Marketing Analytics
+rds-db-969xyz,RDS,Database,available,3.7,960.0,Development,Data Engineering
+s3-bucket-09548prod,S3,Bucket,active,0.0,386.53,Sandbox,QA Team
+s3-bucket-06280prod,S3,Bucket,active,0.0,342.17,Sandbox,Finance
+ec2-i-070910aa,EC2,Instance,running,32.3,584.0,Sandbox,DevOps
+rds-db-463xyz,RDS,Database,available,31.3,480.0,Sandbox,DevOps
+rds-db-347xyz,RDS,Database,available,44.5,960.0,Staging,Unknown
+s3-bucket-02524prod,S3,Bucket,active,0.0,124.75,Sandbox,Data Engineering
+ebs-vol-09698b,EBS,Volume,in-use,9.1,80.0,Development,Unknown
+rds-db-413xyz,RDS,Database,stopped,0.0,480.0,Sandbox,Finance
+_vol-04138b,EBS,Volume,in-use,15.0,40.0,Production,QA Team
+rds-db-332xyz,RDS,Database,available,2.3,480.0,Staging,Finance
+rds-db-814xyz,RDS,Database,available,57.8,240.0,Production,Unknown
+ec2-i-072746aa,EC2,Instance,running,32.7,584.0,Development,Unknown
