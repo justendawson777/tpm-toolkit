@@ -1,0 +1,32 @@
+{
+  "Finance": {
+    "assigned_monthly_token_budget": 3000000,
+    "tokens_consumed_to_date": 850000,
+    "max_tokens_per_request": 30000
+  },
+  "Marketing": {
+    "assigned_monthly_token_budget": 5000000,
+    "tokens_consumed_to_date": 4100000,
+    "max_tokens_per_request": 15000
+  },
+  "Product": {
+    "assigned_monthly_token_budget": 4000000,
+    "tokens_consumed_to_date": 1200000,
+    "max_tokens_per_request": 20000
+  },
+  "Engineering": {
+    "assigned_monthly_token_budget": 15000000,
+    "tokens_consumed_to_date": 6250000,
+    "max_tokens_per_request": 128000
+  },
+  "Security": {
+    "assigned_monthly_token_budget": 2000000,
+    "tokens_consumed_to_date": 1950000,
+    "max_tokens_per_request": 50000
+  },
+  "Research": {
+    "assigned_monthly_token_budget": 25000000,
+    "tokens_consumed_to_date": 18400000,
+    "max_tokens_per_request": 256000
+  }
+}
