@@ -23,11 +23,11 @@ To build a high-performance evaluation matrix that computes token-overlap and se
 
 ## Tech Stack & Setup
 *   **Tech Stack:** Python 3.11+, NumPy.
-*   **Setup:** Install required matrix libraries: `pip install numpy`
+*   **Setup:** Install required matrix libraries: `python3 --version pip3 --version pip3 install numpy`
 
 ## Quick Start Instructions
 1. Navigate to the directory: `cd tpm-toolkit/llm-eval-orch`
-2. Run the evaluation baseline: `python eval_gate.py`
+2. Run the evaluation baseline: `python3 eval_gate.py`
 
 ## Sample Output
 ```text
