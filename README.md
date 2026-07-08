@@ -30,15 +30,28 @@ This repository contains three specialized sub-projects designed to solve system
 * **The Solution:** A compliance and resource tracking script that audits active cloud configurations, evaluates allocation footprints, and isolates orphaned assets to drive structural overhead optimization.
 * **TPM Focus:** Engineering Cost-Reduction, Resource Optimization, Cloud Infrastructure Management.
 
+### 4. GenAI Evaluation Framework & Model Drift Tracker (`/LLM_Eval_Orch`)
+* **The Problem:** Executives face severe hallucination liability and brand damage when engineering teams alter prompts or swap model versions (e.g., legacy to open-source) without objective, standardized metrics, leading to degraded production quality.
+* **The Solution:** An automated orchestration pipeline built using optimized token-matrix similarity logic that acts as a CI/CD quality gate to programmatically test LLM responses against a golden dataset for accuracy before deployment, tracking real-time inference telemetry to capture semantic model drift.
+* **TPM Focus:** Quality Management, CI/CD Gatekeeping, Production SLA Enforcement, Vendor Risk Management.
+
+### 5. Semantic Vector DB Optimization & Storage Auditor (`/Vector_Db_Optimizer`)
+* **The Problem:** Engineering teams rushing to implement Retrieval-Augmented Generation (RAG) are over-indexing and duplicate-chunking enterprise data, triggering exponential, unbudgeted vector database storage bills and severe semantic look-up latency.
+* **The Solution:** A technical auditing tool that scans dense embedding indices using flat-memory streaming architecture to discover under-utilized collections, identify highly redundant semantic data embeddings, and enforce enterprise data-tiering to cheaper object storage.
+* **TPM Focus:** Storage Cost Optimization (FinOps), Architecture Performance, Enterprise Data Lifecycle Management, RAG Efficiency.
+
 ---
 
 ## Core Competencies Reference Matrix
 
-| Project | Cloud & Infra | Data Analytics | Agile Governance | AI Frameworks |
-| :--- | :---: | :---: | :---: | :---: |
-| **Risks Analyzer** | | 🚀 | 🚀 | |
-| **PRD to Jira** | | | 🚀 | 🚀 |
-| **Cloud Cost Auditor** | 🚀 | 🚀 | | |
+| Project | Cloud & Infra | Data Analytics | Agile Governance | AI Frameworks | Security & Compliance |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Risks Analyzer** | | 🚀 | 🚀 | | |
+| **PRD to Jira** | | | 🚀 | 🚀 | |
+| **Cloud Cost Auditor** | 🚀 | 🚀 | | | |
+| **GenAI Guardrail Proxy** | | 🚀 | | 🚀 | 🚀 |
+| **LLM Eval Orchestrator** | | 🚀 | 🚀 | 🚀 | |
+| **Vector Data Optimizer** | 🚀 | 🚀 | | 🚀 | |
 
 ---
 
