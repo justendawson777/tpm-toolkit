@@ -40,6 +40,17 @@ This repository contains three specialized sub-projects designed to solve system
 * **The Solution:** A technical auditing tool that scans dense embedding indices using flat-memory streaming architecture to discover under-utilized collections, identify highly redundant semantic data embeddings, and enforce enterprise data-tiering to cheaper object storage.
 * **TPM Focus:** Storage Cost Optimization (FinOps), Architecture Performance, Enterprise Data Lifecycle Management, RAG Efficiency.
 
+### 6. GenAI Guardrail Proxy (`/llm-gateway-proxy`)
+- **The Problem:** Unchecked enterprise LLM and MCP agent traffic exposes organizations to PII leakage, prompt injection, and runaway token spend.
+- **The Solution:** A low-latency API gateway proxy enforcing synchronous regex/PII ingress validation gates, token rate-limiting, and asynchronous audit telemetry.
+- **TPM Focus:** Shift-Left Security Governance, Latency SLO Management, AI FinOps Controls.
+
+---
+
+## Program Governance & Architectural RFCs
+
+* **[RFC-001: Enterprise GenAI Guardrail Proxy (`llm-gateway-proxy`) — Path to GA](./program-charters/RFC-001-llm-gateway-guardrails-ga.md):** End-to-end rollout charter defining phased exit gates, cross-org RACI, and automated fail-open circuit breakers.
+
 ---
 
 ## Core Competencies Reference Matrix
@@ -57,6 +68,6 @@ This repository contains three specialized sub-projects designed to solve system
 
 ## Connect With Me
 
-* **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/justen-dawson/)
+* **LinkedIn:** [Connect With Me](https://www.linkedin.com/in/justen-dawson/)
 * **Email:** justen.dawson@gmail.com
 * **Location:** Houston, Texas
