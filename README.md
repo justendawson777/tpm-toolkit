@@ -13,7 +13,7 @@ This GitHub space serves as my open-source toolkit. It showcases production-grad
 
 ## Portfolio Projects Index
 
-This repository contains three specialized sub-projects designed to solve systemic enterprise delivery friction:
+This repository contains six specialized sub-projects designed to solve systemic enterprise delivery friction:
 
 ### 1. Risks Analyzer (`/Risks Analyzer`)
 * **The Problem:** Cross-functional dependencies are buried in silos, leading to reactive, late-stage delivery failures.
