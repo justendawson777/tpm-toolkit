@@ -49,7 +49,7 @@ This repository contains three specialized sub-projects designed to solve system
 
 ## Program Governance & Architectural RFCs
 
-* **[RFC-001: Enterprise GenAI Guardrail Proxy (`llm-gateway-proxy`) — Path to GA](./program-charters/RFC-001-llm-gateway-guardrails-ga.md):** End-to-end rollout charter defining phased exit gates, cross-org RACI, and automated fail-open circuit breakers.
+* **[RFC-001: Enterprise GenAI Guardrail Proxy (`llm-gateway-proxy`) — Path to GA](./program-charters/RFC-001-llm-gateway-guardrail-ga.md):** End-to-end rollout charter defining phased exit gates, cross-org RACI, and automated fail-open circuit breakers.
 
 ---
 
