@@ -49,7 +49,13 @@ This repository contains three specialized sub-projects designed to solve system
 
 ## Program Governance & Architectural RFCs
 
-* **[RFC-001: Enterprise GenAI Guardrail Proxy (`llm-gateway-proxy`) — Path to GA](./program-charters/RFC-001-llm-gateway-guardrail-ga.md):** End-to-end rollout charter defining phased exit gates, cross-org RACI, and automated fail-open circuit breakers.
+| RFC ID | Program Charter & Linked Component | Status | Executive Summary |
+| :--- | :--- | :--- | :--- |
+| **RFC-001** | **[Enterprise GenAI Guardrail Proxy (`llm-gateway-proxy`) — Path to GA](./program-charters/RFC-001-llm-gateway-guardrail-ga.md)** | `Ready for Sign-Off` | Executive rollout charter defining real-time PII/secret masking, FinOps spend circuit breakers, cross-org RACI, and fail-open safeguards. |
+| **RFC-002** | **[Automated AI Quality & Model Drift Gatekeeper (`llm-eval-orch`) — Path to GA](./program-charters/RFC-002-ai-quality-drift-gatekeeper.md)** | `Ready for Sign-Off` | Governance charter establishing CI/CD Golden Dataset release gates, 24/7 production drift alerts, and automated vendor model failover. |
+| **RFC-003** | **Enterprise RAG Storage FinOps & Tiering (`vector-db-optimizer`)** | `In Draft` | Program charter for deduplicating dense vector indices, cutting storage overhead by 35%–50%, and enforcing automated cold-tier archival. (Proposal ETA: March 2027) |
+| **RFC-004** | **Predictive Cross-Org Dependency Governance (`Risks Analyzer`)** | `In Draft` | Operating model replacing manual status syncs with automated Jira critical-path alerts 3 weeks ahead of milestone slippage. (Proposal ETA: April 2027) |
+| **RFC-005** | **Continuous Multi-Cloud Waste Reclamation (`Cloud Cost Auditor`)** | `In Draft` | FinOps governance policy automating resource tagging enforcement and 14-day idle asset decommissioning across cloud accounts. (Proposal ETA: TBD 2027) |
 
 ---
 
